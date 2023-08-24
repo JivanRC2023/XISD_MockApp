@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="186dp"
+        android:layout_height="83dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="109dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/FUtureLife"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="427dp"
+        tools:srcCompat="@drawable/FUtureLife" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="10dp"
+        android:text="Hear about a newly-developed HIV manual tailored for use by school health and nutrition teachers has changed perceptions, and how..."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="10dp"
+        android:text="FutureLife-Now! Newsletter Out Now!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="109dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/Research"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="277dp"
+        tools:srcCompat="@drawable/Research" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="304dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="176dp"
+        android:text="Policy Assessment of Ministry of Health and Ministry of Education,Health, HIV/AIDS, SRHR-related Policies"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="10dp"
+        android:text="The FutureLife-Now! programme requires the services of a qualified and suitable consultant/s (firm) to conduct a legislative..."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="News"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="10dp"
+        android:text="MHM Day| Guidelines and Framework to Address Challenges in Schools"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:text="As the world recognizes Menstrual Hygiene Day on 28 May, MIET AFRICA, in partnership with the Basic Education Department..."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/MHday"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="136dp"
+        tools:srcCompat="@drawable/MHday" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

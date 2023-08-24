@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.XISD_MockApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Error"
+            android:exported="false" />
+        <activity
+            android:name=".Thanks"
+            android:exported="false" />
+        <activity
+            android:name=".viewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Request"
+            android:exported="false" />
+        <activity
+            android:name=".projects1"
+            android:exported="false" />
+        <activity
+            android:name=".projects"
+            android:exported="false"
+            android:label="@string/title_activity_projects"
+            android:theme="@style/Theme.XISD_MockApp.NoActionBar" />
+        <activity
+            android:name=".donate"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".services"
+            android:exported="false" />
+        <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".news"
+            android:exported="false"
+            android:label="@string/title_activity_news"
+            android:theme="@style/Theme.XISD_MockApp.NoActionBar" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
