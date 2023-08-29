@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="194dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/ResetPassword_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#429545"

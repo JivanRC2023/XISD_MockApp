@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button11"
+        android:id="@+id/Request_btn"
         android:layout_width="169dp"
         android:layout_height="85dp"
         android:background="#3FD644"
@@ -32,7 +32,7 @@
         tools:layout_editor_absoluteY="514dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button12"
+        android:id="@+id/Donate_btn"
         android:layout_width="169dp"
         android:layout_height="85dp"
         android:background="#3FD644"
@@ -52,7 +52,7 @@
         tools:layout_editor_absoluteY="632dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
+        android:id="@+id/News_btn"
         android:layout_width="230dp"
         android:layout_height="40dp"
         android:background="#429545"
@@ -61,7 +61,7 @@
         tools:layout_editor_absoluteY="187dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
+        android:id="@+id/Account_btn"
         android:layout_width="231dp"
         android:layout_height="43dp"
         android:layout_marginStart="10dp"
@@ -73,7 +73,7 @@
         tools:layout_editor_absoluteY="120dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
+        android:id="@+id/Contact_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#429545"
@@ -82,7 +82,7 @@
         tools:layout_editor_absoluteY="314dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button6"
+        android:id="@+id/Services_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#429545"
@@ -91,7 +91,7 @@
         tools:layout_editor_absoluteY="314dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
+        android:id="@+id/Website_btn"
         android:layout_width="230dp"
         android:layout_height="43dp"
         android:background="#429545"
