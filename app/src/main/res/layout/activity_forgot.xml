@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ResetPassword_btn"
+        android:id="@+id/thanksReturn_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#429545"

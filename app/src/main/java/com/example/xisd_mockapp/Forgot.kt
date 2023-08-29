@@ -10,7 +10,7 @@ class Forgot : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot)
 
-        val buttonRP: Button = findViewById(R.id.ResetPassword_btn)
+        val buttonRP: Button = findViewById(R.id.thanksReturn_btn)
         buttonRP.setOnClickListener {
             val intent = Intent(this, login::class.java)
             startActivity(intent)
