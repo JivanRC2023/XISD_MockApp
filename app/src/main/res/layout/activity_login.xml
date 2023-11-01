@@ -8,13 +8,16 @@
     android:background="@drawable/bg">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginpage_btn"
+        android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:background="#429545"
         android:text="Log in"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textView11"
@@ -42,7 +45,7 @@
         tools:layout_editor_absoluteY="632dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/LoginEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -55,7 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/LoginPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -76,8 +79,9 @@
         android:text="Forgot Password?"
         android:textColor="#2DB5DF"
         android:textSize="14sp"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPassword" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
