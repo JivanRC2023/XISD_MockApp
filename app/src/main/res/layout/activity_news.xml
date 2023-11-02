@@ -12,19 +12,20 @@
         android:layout_width="186dp"
         android:layout_height="83dp"
         android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteY="632dp" />
+        app:srcCompat="@drawable/logo" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="109dp"
         android:layout_height="105dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/FUtureLife"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="427dp"
         tools:srcCompat="@drawable/FUtureLife" />
 
     <TextView
@@ -60,9 +61,10 @@
         android:id="@+id/imageView3"
         android:layout_width="109dp"
         android:layout_height="105dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/Research"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="277dp"
         tools:srcCompat="@drawable/Research" />
 
     <TextView
@@ -142,9 +144,10 @@
         android:id="@+id/imageView2"
         android:layout_width="109dp"
         android:layout_height="105dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/MHday"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="136dp"
         tools:srcCompat="@drawable/MHday" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
