@@ -48,7 +48,7 @@ class Homepage : AppCompatActivity() {
 
         val buttonReq: Button = findViewById(R.id.Request_btn)
         buttonReq.setOnClickListener {
-            val intent = Intent(this, request::class.java)
+            val intent = Intent(this, Request::class.java)
             startActivity(intent)
         }
 

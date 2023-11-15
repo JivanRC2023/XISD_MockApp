@@ -10,11 +10,7 @@ class Thanks : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_thanks)
 
-        val buttonthx: Button = findViewById(R.id.donation_btn)
-        buttonthx.setOnClickListener {
-            val intent = Intent(this, thanks::class.java)
-            startActivity(intent)
-        }
+
 
     }
 }

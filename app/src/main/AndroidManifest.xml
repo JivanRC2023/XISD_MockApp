@@ -26,14 +26,6 @@
             android:name=".Request"
             android:exported="false" />
         <activity
-            android:name=".projects1"
-            android:exported="false" />
-        <activity
-            android:name=".projects"
-            android:exported="false"
-            android:label="@string/title_activity_projects"
-            android:theme="@style/Theme.XISD_MockApp.NoActionBar" />
-        <activity
             android:name=".donate"
             android:exported="false" />
         <activity
@@ -59,11 +51,9 @@
             android:exported="false"
             android:label="@string/title_activity_news"
             android:theme="@style/Theme.XISD_MockApp.NoActionBar" />
+
         <activity
             android:name=".Homepage"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -71,6 +61,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
