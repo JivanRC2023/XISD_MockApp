@@ -16,15 +16,9 @@ class Homepage : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val buttonNews: Button = findViewById(R.id.News_btn)
-        buttonNews.setOnClickListener {
-            val intent = Intent(this, news::class.java)
-            startActivity(intent)
-        }
-
         val buttonWeb: Button = findViewById(R.id.Website_btn)
         buttonWeb.setOnClickListener {
-            val intent = Intent(this, news::class.java)
+            val intent = Intent(this, Homepage::class.java)
             startActivity(intent)
         }
 

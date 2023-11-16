@@ -55,18 +55,6 @@
         app:srcCompat="@drawable/logo" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/News_btn"
-        android:layout_width="230dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="12dp"
-        android:background="#429545"
-        android:text="News"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Account_btn" />
-
-    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Account_btn"
         android:layout_width="231dp"
         android:layout_height="43dp"
@@ -105,21 +93,11 @@
         android:id="@+id/Website_btn"
         android:layout_width="230dp"
         android:layout_height="43dp"
-        android:layout_marginTop="12dp"
         android:background="#429545"
         android:text="Our Website"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/News_btn" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UserName   Is logged in"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="235dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
